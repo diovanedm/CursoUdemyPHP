@@ -28,8 +28,8 @@ $matriz = [
 <div>
     <table>
         <?php
-            foreach($matriz as $chave => $valor) {
-                $cor = $chave % 2 == 0 ? 'background-color: red;' : '';
+            foreach($matriz as $indice => $linha) {
+                $cor = $indice % 2 == 0 ? 'background-color: red;' : '';
                 echo "<tr style='{$cor}'>";
                     foreach($linha as $valor) {
                         echo "<td>".$valor."</td>";
