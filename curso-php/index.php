@@ -95,6 +95,10 @@
                         <li><a href="exercicio.php?dir=funcoes&file=desafio_palindromo">Desafio Palindromo</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=args_variaveis">Argumentos Variáveis</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=declarando_tipos">Declarando Tipos<a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=funcoes_anonimas">Funçoes Anonimas<a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=closure_callable">Closure e Callable<a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade<a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=desafio_recursividade">Desafio Recursividade<a></li>
                     </ul>
                 </div>
             </nav>
