@@ -1,16 +1,19 @@
-<div class="titulo">Recursividade</div>
+<div class="titulo">Desafio Recursividade</div>     
 
 <?php
-$array = [1,2,[3,15,5],6,[7,[8,9]],10];
 
-function imprimirArray($array, $nivel = '>') {
+function recursividade($array, $nivel = ">") {
     foreach($array as $elemento) {
         if(is_array($elemento)) {
-            imprimirArray($elemento, $nivel . $nivel[0]);
-        } else {
+            recursividade($elemento, $nivel . $nivel[0]);
+        }
+        else {
             echo "$nivel $elemento <br>";
         }
     }
 }
 
-imprimirArray($array);
+$array = [5,3,1, [2, 0], 7, 5,  [0,[8, 6]], 9];
+
+recursividade($array);
+

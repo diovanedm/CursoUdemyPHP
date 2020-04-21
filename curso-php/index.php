@@ -67,13 +67,6 @@
                     </ul>
                 </div>
 
-                <div class="modulo laranja">
-                    <h3>5. Array</h3>
-                    <ul>
-                        <li><a href="exercicio.php?dir=arrays&file=basico">Array</a></li>
-                    </ul>
-                </div>
-
                 <div class="modulo verde-escuro">
                     <h3>6. Repetições</h3>
                     <ul>
@@ -86,6 +79,7 @@
                         <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela_2">Desafio tabela 2</a></li>
                     </ul>
                 </div>
+
                 <div class="modulo roxo-escuro">
                     <h3>7. Funções</h3>
                     <ul>
@@ -99,8 +93,25 @@
                         <li><a href="exercicio.php?dir=funcoes&file=closure_callable">Closure e Callable<a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade<a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=desafio_recursividade">Desafio Recursividade<a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=retornando_funcao">Retornando Função<a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=map_filter">Map e Filter<a></li>
                     </ul>
                 </div>
+
+                <div class="modulo amarelo">
+                    <h3>8. Objetos e Classes</h3>
+
+                    <ul>
+                        <li><a href="exercicio.php?dir=objetos_classes&file=primeira_classe">Primeira Classe</a></li>
+                        <li><a href="exercicio.php?dir=objetos_classes&file=desafio_data">Desafio Data</a></li>
+                        <li><a href="exercicio.php?dir=objetos_classes&file=construtor_destrutor">Construtor e Destrutor</a></li>
+                    </ul>
+                </div>
+
+
+
+
+               
             </nav>
         </div>
     </main>

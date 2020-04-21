@@ -6,5 +6,5 @@ $soma = function($a, $b) {
 };
 
 function executar($a, $b, $op, $funcao) {
-    $resultado = funcao(a)
+    $resultado = funcao(a);
 }
